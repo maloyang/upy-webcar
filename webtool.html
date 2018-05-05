@@ -6,11 +6,12 @@
     .block {
         display: block;
         width: 80%;
+        height:200px;
         border: none;
         background-color: #4CAF50;
         color: white;
         padding: 14px 28px;
-        font-size: 16px;
+        font-size: 160px;
         cursor: pointer;
         text-align: center;
     }
@@ -29,12 +30,6 @@ webREPL: <a href="http://micropython.org/webrepl/" target="_blank">webrepl</a>
 Doc: <a href="https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html" target="_blank">Quick reference</a>
 </h3>
 <hr>
-
-<form>
-<b>LED (D4):</b><br>
-<button name="LED" value="ON" type="submit" class="block">ON</button><br>
-<button name="LED" value="OFF" type="submit" class="block">OFF</button><br>
-</form>
 
 <form>
 <b>Car (D1, D3, D2, D4):</b><br>
@@ -57,6 +52,12 @@ Doc: <a href="https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.ht
 <button name="motor_b" value="1" type="submit" class="block">FWD</button><br>
 <button name="motor_b" value="-1" type="submit" class="block">REV</button><br>
 <button name="motor_b" value="0" type="submit" class="block">STOP</button><br>
+</form>
+
+<form>
+<b>LED (D4):</b><br>
+<button name="LED" value="ON" type="submit" class="block">ON</button><br>
+<button name="LED" value="OFF" type="submit" class="block">OFF</button><br>
 </form>
 
 <hr>

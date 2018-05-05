@@ -145,11 +145,11 @@ while True:
         print('Car RIGHT')
         motor_a1.value(1)
         motor_a2.value(REV)
-        motor_b1.value(0)
+        motor_b1.value(1)
         motor_b2.value(FWD)
     if car_left >= 0:
         print('Car LEFT')
-        motor_a1.value(0)
+        motor_a1.value(1)
         motor_a2.value(FWD)
         motor_b1.value(1)
         motor_b2.value(REV)
